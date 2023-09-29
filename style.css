@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+display: flex;
+justify-content: center;
+width: 100%;
+height: 100%;
+margin: auto;
+}
+.container{
+
+
+display: flex;
+/* flex-direction: column; */
+align-items: center;
+/* justify-content: 1em; */
+gap: 1em;
+width: 100%;
+height: 100%;
+margin: auto;
+align-items: center;
+justify-content: center;
+max-width: 60%;
+height: 100vh;
+
+}
+.container1{
+    background-color: rgb(117, 117, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    gap: 2.5em;
+    border-radius: 2em;
+    max-width: 60%;
+    
+flex: 1;
+    
+}
+.container1 h1{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10rem;  */
+}
+.circle{
+padding: 1em;
+background-color: rgb(97, 97, 222);
+
+/* border-radius: 50%; This makes the element a circle */
+display: flex;
+flex-direction: column;
+align-items: center;
+/* gap: -1rem; */
+border-radius: 50%;
+
+}
+/* .circle h2{
+    margin-left: 2rem;
+    font-size: 40px;
+    color: white;
+}
+.circle h3{
+    margin-left: 1rem;
+    
+} */
+.container1 p{
+    /* width: 60%; */
+    margin: auto;
+    text-align: center;
+    width: calc( 100% - 2em);
+}
+.container2{
+    /* background-color: rgb(117, 117, 239); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    gap: 1em;
+    border-radius: 2em;
+    /* width: 50%; */
+    flex: 1;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+    gap: 0.75em;
+    align-items: start;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding: 1em;
+    width: calc(100% - 2em );
+    background-color: rgb(253, 240, 240);
+    border-radius: 1em;
+}
+.box1 span .bold{
+font-weight: bold;
+
+}
+.box_title{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.btn{
+    justify-content: center;
+    font-size: 1em;
+    max-width: 80%;
+    background-color:rgb(36, 36, 100);
+    
+}
+.btn p{
+    color: wheat;
+    font-size: 1.2em;
+}
+.rec{
+    color: red;
+}
+.mem{
+    color: rgb(228, 171, 27)
+}
+.ver{
+    color: rgb(52, 167, 178);
+}
+.vis{
+    color: blue;
+}
+.circle h3{
+    color: white;
+}
+.container1 p{
+    color: white;
+}
+@media (max-width:500px) {
+   
+    .container{
+       flex-wrap: wrap;
+    }
+    .container1{
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
+    }
+    .box_title{
+        gap: 0.2rem;
+        max-width: 30%;
+    }
+    .box1{
+       width: calc( 100% - 0.75em);
+    }
+    .container1 p{
+        width: calc( 100% - 0.75em);
+    }
+    .heading h1{
+        font-size: small;
+    }
+    .circle h3{
+        font-size: small;
+    }
+    
+}
